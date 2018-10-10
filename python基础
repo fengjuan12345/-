@@ -1,0 +1,56 @@
+# -*- coding: utf-8 -*-
+'''
+print("hello")
+name='juan juan'
+print(name.title())#首字母大写
+print(name.lower())#改为小写
+first_name='xie'
+last_name='juanjuan'
+full_name=first_name+" "+last_name#字符串拼接
+print(full_name.title())
+my_name='xiefegn juan '
+my_name
+my_name.rstrip()#删除字符串末尾空白
+print(my_name)
+my_name=' xiefegnjuan '
+print(my_name)
+print(my_name.lstrip())#删除字符串开头空白
+print(my_name.strip())#删除字符串首尾空白
+print(0.2+0.3)
+'''
+#age=23
+#message='you ' + 'are ' + str(age)+' rd Bi'
+#print(message)
+#print(3/2)
+bicycles=['mobai','didi','qingcheng','halou']#列表
+#print(bicycles)
+#print(bicycles[-1].title())#返回倒数第一个数，同理-2表示倒数第二，-3表示倒数第三
+#bicycles[0]='hh'修改列表元素
+#print(bicycles)
+#bicycles.append('nervious')在列表末尾添加元素
+#print(bicycles)
+#bicycles.insert(1,'aoo')#在列表中任意位置插入元素
+#print(bicycles)
+#del bicycles[2]#删除列表中任意位置元素
+#print(bicycles)
+#pop_bicycle=bicycles.pop()#使用pop删除列表元素
+#print(bicycles)
+#print(pop_bicycle)#列表末尾的值已经被删除，被删除的元素被存储在pop_bicycle中，这个值依旧可以被访问
+#pop_bicycle1=bicycles.pop(1)#使用pop删除列表任意元素
+#print(bicycles)
+#bicycles.remove('didi')#不知删除的值的位置，直接删除值,这个值依旧可以被访问
+#print(bicycle)
+#remove()只删除第一个值，如果列表中有多个值，需要使用循环来判断是否删除所有值。
+#bicycles.sort()#使用sort对列表进行永久性排序
+#print(bicycles)
+'''print("This is the ordinary list")
+sorted_bicycles=sorted(bicycles)#使用sort对列表进行永久性排序
+print(sorted_bicycles)
+print("This is the sorted list")#使用sorted对列表进行永久性排序
+print(bicycles)
+print("This is the ordinary list")'''
+'''bicycles.reverse()#倒着打印列表
+print(bicycles)
+print(len(bicycles))#计算列表长度'''
+for bicycle in bicycles:
+    print(bicycle)
